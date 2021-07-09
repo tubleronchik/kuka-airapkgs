@@ -1,0 +1,16 @@
+name: "Cachix"
+on:
+  pull_request:
+  push:
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: cachix/install-nix-action@v8
+    - uses: cachix/cachix-action@v5
+      with:
+        name: aira
+        attributes: ros_comm
+        nixBuildArgs: '--option sandbox false'
+        signingKey: '${{ secrets.CACHIX_SIGNING_KEY }}'

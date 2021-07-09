@@ -1,0 +1,13 @@
+diff --git a/concurrent-machines.cabal b/concurrent-machines.cabal
+index da4b659..0391538 100644
+--- a/concurrent-machines.cabal
++++ b/concurrent-machines.cabal
+@@ -58,7 +58,7 @@ library
+                        monad-control >= 1.0 && < 1.1,
+                        transformers >= 0.4 && < 0.6,
+                        time >= 1.4 && < 1.10,
+-                       containers >= 0.5 && < 0.6,
++                       containers >= 0.5 && < 0.7,
+                        transformers-base >= 0.4 && < 0.6,
+                        machines >= 0.5 && < 0.7,
+                        async >= 2.0.1 && < 2.3,
