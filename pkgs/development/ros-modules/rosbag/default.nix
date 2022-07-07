@@ -31,7 +31,7 @@ in mkRosPackage {
     owner = "ros-gbp";
     repo = "ros_comm-release";
     rev = "release/${rosdistro}/${pname}/${version}-0";
-    sha256 = "0yk12kf5i86mk0vr7dr21222flfsm3dah8qcfaxsz9lzjihcq8la";
+    sha256 = "f/0lDF2WFUTfADtl1vczQY2ZaFon7qt8pZbL+ySd/Z0=";
   };
 
   propagatedBuildInputs =
