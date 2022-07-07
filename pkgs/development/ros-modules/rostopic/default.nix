@@ -20,7 +20,7 @@ in mkRosPackage {
     owner = "ros-gbp";
     repo = "ros_comm-release";
     rev = "release/${rosdistro}/${pname}/${version}-0";
-    sha256 = "1zc2rwg2fcc3nzsm11043hlhaig49110sg5h4y5d9xqyyjihg8ap";
+    sha256 = "HZizpRgQveSrgj/iB9TMyyvNcIvsXJ2zgwE+03fg1T8=";
   };
 
   propagatedBuildInputs = [ catkin genpy rosbag rospy rostest ];
